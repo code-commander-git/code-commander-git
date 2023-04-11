@@ -1,0 +1,80 @@
+body{
+  margin: 0;
+  background-color: rgb(20 20 20);
+}
+
+body, #extra-text{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+#top-bar{
+  display: flex;
+  padding: 10px;
+  position: fixed;
+  height: 3vh;
+  width: 100vw;
+  justify-content: space-between;
+  background-color: rgb(10 10 10);
+  border-bottom: 2px rgb(25 25 25) solid;
+}
+  
+#logo{
+  height: 3vh;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-top: auto;
+  margin-left: 60px;
+  position: absolute;
+}
+   
+#site-body{
+  margin-left: 20px;
+  color: rgb(200, 200, 200);
+}
+
+#sections{
+  margin-top: 3px;
+  margin-right: 15px;
+}
+
+button{
+  height: auto;
+  background: none;
+  color: rgb(200 200 200);
+  border: 0px;
+}
+
+button:hover{
+  color: rgb(89, 100, 255);
+  text-decoration: underline;
+}
+
+#header{
+  text-align: center;
+  display: flex;
+  margin-top: 5%;
+  justify-content: flex-start;
+}
+
+#menu-button{
+  display: none;
+}
+
+#coding-screen{
+  margin-left: 20vw; 
+  margin-right: 2vw; 
+  margin-top: 8vh;
+  filter:brightness(30%); 
+  height: 30vw;
+}
+
+@media screen and (max-width: 1500px) {
+  #coding-screen{
+    display: none;
+  }
+  #site-body{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+  }
+}

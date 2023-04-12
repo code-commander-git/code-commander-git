@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    background-color: rgb(20 20 20); 
+}
+
+body, #extra-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+#top-bar{
+    display: flex;
+    padding: 10px;
+    position: fixed;
+    height: 3vh;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: rgb(10 10 10);
+    border-bottom: 2px rgb(25 25 25) solid;
+}
+
+#logo{
+    height: 3vh;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: auto;
+    margin-left: 60px;
+    position: absolute;
+}
+
+#sections{
+    margin-top: 3px;
+    margin-right: 15px;
+}
+
+button{
+    height: auto;
+    background: none;
+    color: rgb(200 200 200);
+    border: 0px;
+}
+  
+button:hover{
+    color: rgb(89, 100, 255);
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 80px;
+    margin-top: 35px;
+    margin-left: 22px;
+    resize: none;
+    color: aqua;
+}
+
+#paragraph{
+    margin-top: -20px;
+    font-size: 35px;
+    color: rgb(200, 200, 200);
+}
+
+h1, #paragraph{
+    display: flex;
+    margin-left: 10px;
+    justify-content: flex-start;
+}
+
+#img{
+    margin-left: 10px;
+    filter: invert(100%);
+}
+
+#send-email{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 250px;
+    font-size: larger;
+    padding: 15px;
+    border: 3px white solid;
+    border-radius: 10px;
+}
+
+#send-email:hover{
+    text-decoration: none;
+    color: rgb(200, 200, 200);
+    border: 3px rgb(79, 255, 79) solid;
+}
+
+#img_individual:hover{
+    filter: invert(30%);
+}
+
+@media screen and (max-width: 1600px){
+     
+}
